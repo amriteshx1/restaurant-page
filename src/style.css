@@ -6,7 +6,7 @@ html, body {
     height: 100%;
 }
 body {
-    background-image: url(../img.jpg);
+    background-image: url(../img/backgroundImg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ nav{
     padding: 20px;
     gap: 50px;
 }
-.b1{
+#homeBtn, #menuBtn, #aboutBtn{
     background: transparent;
     font-size: 25px;
     font-family: 'Papyrus', fantasy, sans-serif;
@@ -33,6 +33,16 @@ nav{
     color: white;
     padding: 5px;
 }
+#homeBtn:hover, #menuBtn:hover, #aboutBtn:hover {
+    background: white;
+    color: black;
+    font-weight: bolder;
+}
+
+button{
+    cursor: pointer;
+}
+
 
 #content{
     display: flex;
@@ -45,51 +55,9 @@ nav{
     right: 0;
 }
 
-#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 80%;
-    width: 100%;
-}
-#subCnt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    gap: 40px;
-}
+/*Home-Page*/
 
-img{
-    height: 200px;
-    width: 300px;
-    border: 2px solid white;
-    border-radius: 5px 30px;
-}
-.p1{
-    font-size:25px;
-    color: white;
-    font-family: 'Papyrus', fantasy, sans-serif;
-}
-
-.p2{
-    font-size: 40px;
-    color: white;
-    font-family: 'Papyrus', fantasy, sans-serif;
-    font-weight: bolder;
-    margin-top: 30px;
-}
-.p3{
-    font-size: 25px;
-    color: white;
-    font-family: 'Papyrus', fantasy, sans-serif;
-    margin-top: 30px;
-}
-
-/*Home-page*/
-
-/* #container{
+#container1{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -120,14 +88,16 @@ img{
     font-size: 20px;
     font-family: 'Papyrus', fantasy, sans-serif;
     font-weight: bold;
-}  */
+}
+.book:hover{
+    background-color: #211A1D;
+    color: white;
+    border: 1px solid white;
+}
 
-/*About-page*/
+/*Menu-Page*/
 
-
-/*Menu-page*/
-
-/* #container{
+#container2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,7 +140,7 @@ img{
     border: 2px solid white;
     border-radius: 5px 30px;
 }
-.p1{
+.p1p{
     font-size:25px;
     color: white;
     font-family: 'Papyrus', fantasy, sans-serif;
@@ -183,4 +153,53 @@ img{
     font-family: 'Papyrus', fantasy, sans-serif;
     font-weight: bolder;
     border-radius: 5px 15px;
-}  */
+}
+.b2:hover{
+    background-color: #211A1D;
+    color: white;
+    border: 1px solid white;
+}
+
+/*About-Page*/
+
+#container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80%;
+    width: 100%;
+}
+#subCnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    gap: 40px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px 30px;
+}
+.p1{
+    font-size:25px;
+    color: white;
+    font-family: 'Papyrus', fantasy, sans-serif;
+}
+
+.p2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Papyrus', fantasy, sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.p3{
+    font-size: 25px;
+    color: white;
+    font-family: 'Papyrus', fantasy, sans-serif;
+    margin-top: 30px;
+}
