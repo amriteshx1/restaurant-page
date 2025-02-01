@@ -1,3 +1,4 @@
+import aboutImage from "../img/aboutImg.jpg";
 
 export function aboutPage(){
 
@@ -11,7 +12,7 @@ export function aboutPage(){
     subCnt.id='subCnt';
 
     const img1 = document.createElement('img');
-    img1.src = '../img/aboutImg.jpg';
+    img1.src = aboutImage;
     img1.alt = 'view of the restaurant';
     subCnt.appendChild(img1);
 

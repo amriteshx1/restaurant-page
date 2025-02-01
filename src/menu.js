@@ -1,3 +1,7 @@
+import fourM from "../img/fourMeal.webp";
+import threeM from "../img/threeMeal.jpg";
+import twoM from "../img/twoMeal.jpg";
+import oneM from "../img/oneMeal.jpg";
 
 export function menuPage(){
 
@@ -17,10 +21,10 @@ export function menuPage(){
     cnt.appendChild(boxC);
 
     const boxData = [
-    { imgSrc: '../img/fourMeal.webp', altText: 'a platter of 4 person', title: 'Quadspread' },
-    { imgSrc: '../img/threeMeal.jpg', altText: 'a platter of 3 person', title: 'Trioplate' },
-    { imgSrc: '../img/twoMeal.jpg', altText: 'a platter of 2 person', title: 'Duofeast' },
-    { imgSrc: '../img/oneMeal.jpg', altText: 'a platter of 1 person', title: 'Solomeal' },
+    { imgSrc: fourM, altText: 'a platter of 4 person', title: 'Quadspread' },
+    { imgSrc: threeM, altText: 'a platter of 3 person', title: 'Trioplate' },
+    { imgSrc: twoM, altText: 'a platter of 2 person', title: 'Duofeast' },
+    { imgSrc: oneM, altText: 'a platter of 1 person', title: 'Solomeal' },
     ];
 
     boxData.forEach(item => {

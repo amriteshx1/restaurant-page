@@ -1,3 +1,5 @@
+import "./style.css";
+
 import { homePageMain } from "./home.js";
 import { menuPage } from "./menu.js";
 import { aboutPage } from "./about.js";
